@@ -9,7 +9,7 @@
     @EMAIL         VARCHAR (2079),
     @TELEFONE      VARCHAR (15),
 	@Id           BIGINT,
-	@CPF           VARCHAR (14)
+	@CPF           VARCHAR (11)
 AS
 BEGIN
 	UPDATE CLIENTES 
